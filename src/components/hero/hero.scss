@@ -1,0 +1,338 @@
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        height: 50vh;
+        width: 100%;
+        max-width: 100%;
+        background-color: antiquewhite;
+
+        .hero-container__info {
+            display: flex;
+            height: 50%;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+            line-height: 0px;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                width: 20%;
+                height: 20%;
+            }
+
+            .see-my-work {
+                padding: 10px 5px;
+                max-width: 45%;
+                background-color: transparent;
+                color: #BBBBBB;
+                border: 1px solid #BBBBBB;
+                cursor: pointer;
+                text-decoration: underline;
+
+                &:active {
+                    transform: scale(0.95);
+                    border: 2px solid #BBBBBB;
+                }
+            }
+
+            h1 {
+                font-size: 1.25em;
+            }
+        }
+
+        .hero-container__photo {
+            display: flex;
+            height: 50%;
+            flex-direction: column;
+            width: 100%;
+            align-content: center;
+            justify-content: center;
+            text-align: left;
+            line-height: 0px;
+            background-color: red;
+
+            .photo {
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        height: 50vh;
+        width: 100vw;
+        max-width: 100%;
+        background-color: antiquewhite;
+
+        .hero-container__info {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 50%;
+            text-align: center;
+            line-height: 0px;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                width: 20%;
+                height: 20%;
+            }
+
+            .see-my-work {
+                padding: 10px 5px;
+                max-width: 45%;
+                background-color: transparent;
+                color: #BBBBBB;
+                border: 1px solid #BBBBBB;
+                cursor: pointer;
+                text-decoration: underline;
+
+                &:active {
+                    transform: scale(0.95);
+                    border: 2px solid #BBBBBB;
+                }
+            }
+
+            h1 {
+                font-size: 1.25em;
+            }
+        }
+
+        .hero-container__photo {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 50%;
+            align-content: center;
+            justify-content: center;
+            text-align: left;
+            line-height: 0px;
+
+            .photo {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        height: 50vh;
+        width: 100%;
+        max-width: 100%;
+        background-color: antiquewhite;
+
+        .hero-container__info {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 50%;
+            text-align: center;
+            line-height: 0px;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                width: 20%;
+                height: 20%;
+            }
+
+            .see-my-work {
+                padding: 10px 5px;
+                max-width: 45%;
+                background-color: transparent;
+                color: #BBBBBB;
+                border: 1px solid #BBBBBB;
+                cursor: pointer;
+                text-decoration: underline;
+
+                &:active {
+                    transform: scale(0.95);
+                    border: 2px solid #BBBBBB;
+                }
+            }
+
+            h1 {
+                font-size: 1.25em;
+            }
+        }
+
+        .hero-container__photo {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 50%;
+            align-content: center;
+            justify-content: center;
+            text-align: left;
+            line-height: 0px;
+
+            .photo {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        height: 50vh;
+        width: 100%;
+        max-width: 100%;
+        background-color: antiquewhite;
+
+        .hero-container__info {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 50%;
+            text-align: center;
+            line-height: 0px;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                width: 20%;
+                height: 20%;
+            }
+
+            .see-my-work {
+                padding: 10px 5px;
+                max-width: 45%;
+                background-color: transparent;
+                color: #BBBBBB;
+                border: 1px solid #BBBBBB;
+                cursor: pointer;
+                text-decoration: underline;
+
+                &:active {
+                    transform: scale(0.95);
+                    border: 2px solid #BBBBBB;
+                }
+            }
+
+            h1 {
+                font-size: 1.25em;
+            }
+        }
+
+        .hero-container__photo {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 50%;
+            align-content: center;
+            justify-content: center;
+            text-align: left;
+            line-height: 0px;
+
+            .photo {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        height: 50vh;
+        width: 100%;
+        max-width: 100%;
+        background-color: antiquewhite;
+
+        .hero-container__info {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 50%;
+            text-align: center;
+            line-height: 0px;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                width: 20%;
+                height: 20%;
+            }
+
+            .see-my-work {
+                padding: 10px 5px;
+                max-width: 45%;
+                background-color: transparent;
+                color: #BBBBBB;
+                border: 1px solid #BBBBBB;
+                cursor: pointer;
+                text-decoration: underline;
+
+                &:active {
+                    transform: scale(0.95);
+                    border: 2px solid #BBBBBB;
+                }
+            }
+
+            h1 {
+                font-size: 1.25em;
+            }
+        }
+
+        .hero-container__photo {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 50%;
+            align-content: center;
+            justify-content: center;
+            text-align: left;
+            line-height: 0px;
+
+            .photo {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+}
