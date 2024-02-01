@@ -1,16 +1,20 @@
-.aboutMe-container {
+.ability-container {
     width: 100%;
     height: 60vh;
-    background-color: black;
+    background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
+
+    h1 {
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-    .aboutMe-container {
-        flex-direction: column-reverse;
+    .ability-container {
+        flex-direction: column;
 
-        .aboutMe-container__image {
+        .ability-container__image {
             width: 100%;
             height: 50%;
 
@@ -21,7 +25,7 @@
             }
         }
 
-        .aboutMe-container__content {
+        .ability-container__content {
             width: 100%;
             max-width: 100%;
             height: 50%;
@@ -31,31 +35,56 @@
             flex-direction: column;
             text-align: left;
             text-wrap: wrap;
-
             h1 {
-                color: white;
+                color: black;
                 font-size: 1.35em;
                 padding: 0px 15px;
+                text-align: center;
             }
 
-            p {
-                color: white;
-                font-size: 1em;
-                width: 90%;
-                max-width: 100%;
-                text-wrap: wrap;
-                margin: 0px 15px;
-                letter-spacing: 0.5px;
+            .ability-container__content-list {
+                display: flex;
+                width: 100%;
+                text-align: left;
+                justify-content: start;
+                align-items: start;
+                align-content: start;
+                h5 {
+                    margin-left: 15px;
+                }
+                ul{
+                    list-style: none;
+                    width: 90%;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-content: flex-start;
+                }
+    
+                li {
+                    color: black;
+                    font-size: 0.5em;
+                    width: 90%;
+                    max-width: 100%;
+                    text-wrap: wrap;
+                    letter-spacing: 0.5px;
+                    text-align: left;
+                    margin-bottom: 5px;
+                    margin-top: 3px;
+                    margin-left: 15px;
+                }
             }
+
         }
     }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-    .aboutMe-container {
+    .ability-container {
         flex-direction: column;
 
-        .aboutMe-container__image {
+        .ability-container__image {
             width: 50%;
             height: 100%;
             display: flex;
@@ -63,13 +92,13 @@
             justify-content: center;
 
             img {
-                width: 90%;
-                height: 70%;
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
             }
         }
 
-        .aboutMe-container__content {
+        .ability-container__content {
             width: 50%;
             height: 100%;
             display: flex;
@@ -99,10 +128,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .aboutMe-container {
+    .ability-container {
         flex-direction: column;
 
-        .aboutMe-container__image {
+        .ability-container__image {
             width: 50%;
             height: 100%;
             display: flex;
@@ -110,13 +139,13 @@
             justify-content: center;
 
             img {
-                width: 90%;
-                height: 70%;
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
             }
         }
 
-        .aboutMe-container__content {
+        .ability-container__content {
             width: 50%;
             height: 100%;
             display: flex;
@@ -146,7 +175,7 @@
 }
 
 @media only screen and (min-width: 1025px) {
-    .aboutMe-container__image {
+    .ability-container__image {
         width: 50%;
         height: 100%;
         display: flex;
@@ -154,13 +183,13 @@
         justify-content: center;
 
         img {
-            width: 90%;
-            height: 70%;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
         }
     }
 
-    .aboutMe-container__content {
+    .ability-container__content {
         width: 50%;
         height: 100%;
         display: flex;
@@ -189,7 +218,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .aboutMe-container__image {
+    .ability-container__image {
         width: 50%;
         height: 100%;
         display: flex;
@@ -197,13 +226,13 @@
         justify-content: center;
 
         img {
-            width: 90%;
-            height: 70%;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
         }
     }
 
-    .aboutMe-container__content {
+    .ability-container__content {
         width: 50%;
         height: 100%;
         display: flex;

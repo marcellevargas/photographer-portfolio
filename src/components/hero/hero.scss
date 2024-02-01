@@ -5,7 +5,7 @@
         align-items: center;
         align-content: center;
         justify-content: center;
-        height: 50vh;
+        height: 60vh;
         width: 100%;
         max-width: 100%;
         background-color: antiquewhite;
@@ -16,7 +16,6 @@
             flex-direction: column;
             width: 100%;
             text-align: center;
-            line-height: 0px;
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
@@ -27,13 +26,14 @@
             }
 
             .see-my-work {
-                padding: 10px 5px;
+                padding: 5px 5px;
                 max-width: 45%;
                 background-color: transparent;
                 color: #BBBBBB;
                 border: 1px solid #BBBBBB;
                 cursor: pointer;
                 text-decoration: underline;
+                margin-top: 10px;
 
                 &:active {
                     transform: scale(0.95);
@@ -43,6 +43,7 @@
 
             h1 {
                 font-size: 1.25em;
+                margin: 0;
             }
         }
 
@@ -83,7 +84,6 @@
             flex-direction: column;
             width: 50%;
             text-align: center;
-            line-height: 0px;
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
@@ -101,7 +101,7 @@
                 border: 1px solid #BBBBBB;
                 cursor: pointer;
                 text-decoration: underline;
-
+                margin-top: 10px;
                 &:active {
                     transform: scale(0.95);
                     border: 2px solid #BBBBBB;
@@ -110,6 +110,7 @@
 
             h1 {
                 font-size: 1.25em;
+                margin: 0;
             }
         }
 
@@ -151,7 +152,6 @@
             flex-direction: column;
             width: 50%;
             text-align: center;
-            line-height: 0px;
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
@@ -169,7 +169,7 @@
                 border: 1px solid #BBBBBB;
                 cursor: pointer;
                 text-decoration: underline;
-
+                margin-top: 10px;
                 &:active {
                     transform: scale(0.95);
                     border: 2px solid #BBBBBB;
@@ -178,6 +178,7 @@
 
             h1 {
                 font-size: 1.25em;
+                margin: 0;
             }
         }
 
@@ -219,10 +220,10 @@
             flex-direction: column;
             width: 50%;
             text-align: center;
-            line-height: 0px;
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
+            margin-top: 10px;
 
             .logo {
                 width: 20%;
@@ -246,6 +247,7 @@
 
             h1 {
                 font-size: 1.25em;
+                margin: 0;
             }
         }
 
@@ -287,7 +289,6 @@
             flex-direction: column;
             width: 50%;
             text-align: center;
-            line-height: 0px;
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
@@ -305,7 +306,7 @@
                 border: 1px solid #BBBBBB;
                 cursor: pointer;
                 text-decoration: underline;
-
+                margin-top: 10px;
                 &:active {
                     transform: scale(0.95);
                     border: 2px solid #BBBBBB;
