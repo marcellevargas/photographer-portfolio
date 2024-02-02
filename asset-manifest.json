@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/photographer-portfolio/static/css/main.81a5f0a8.css",
+    "main.js": "/photographer-portfolio/static/js/main.3aecc0ed.js",
+    "static/js/787.bb0cf890.chunk.js": "/photographer-portfolio/static/js/787.bb0cf890.chunk.js",
+    "static/media/photographer-2.jpg": "/photographer-portfolio/static/media/photographer-2.4e2c165ecfd5998866a1.jpg",
+    "static/media/photographer-1.jpg": "/photographer-portfolio/static/media/photographer-1.2b9298e6a84c40594305.jpg",
+    "static/media/planner.jpg": "/photographer-portfolio/static/media/planner.30158541335bd068686a.jpg",
+    "static/media/camera.jpg": "/photographer-portfolio/static/media/camera.63797d1f0f142c5980e9.jpg",
+    "static/media/Montserrat-Bold.ttf": "/photographer-portfolio/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
+    "static/media/Montserrat-Regular.ttf": "/photographer-portfolio/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/logo.svg": "/photographer-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/photographer-portfolio/index.html",
+    "main.81a5f0a8.css.map": "/photographer-portfolio/static/css/main.81a5f0a8.css.map",
+    "main.3aecc0ed.js.map": "/photographer-portfolio/static/js/main.3aecc0ed.js.map",
+    "787.bb0cf890.chunk.js.map": "/photographer-portfolio/static/js/787.bb0cf890.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81a5f0a8.css",
+    "static/js/main.3aecc0ed.js"
+  ]
+}
