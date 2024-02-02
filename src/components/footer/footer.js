@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <p>developed by:</p>
-      <a href="https://marcellevargas.bio/portfolio">
+      <a href="https://marcellecode.com">
         <img src={devLogo}/>
       </a>
     </div>
