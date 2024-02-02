@@ -8,7 +8,7 @@ export default function Ability() {
       <div className="ability-container__content">
         <h1>Habilidades e serviços</h1>
         <div className="ability-container__content-list">
-          <div>
+          <div className="ability-container__content-list-item">
             <h5>Habilidades</h5>
             <ul>
               <li>Composição Fotográfica e Enquadramento</li>
@@ -19,7 +19,7 @@ export default function Ability() {
             </ul>
           </div>
 
-          <div>
+          <div className="ability-container__content-list-item">
             <h5>Serviços</h5>
             <ul>
               <li>Sessões de Fotografia de Retrato</li>
