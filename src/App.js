@@ -5,6 +5,7 @@ import AboutMe from './components/about-me/about-me';
 import Ability from './components/ability/ability';
 import Testimony from './components/testimony/testimony';
 import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Ability/>
       <Testimony/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
